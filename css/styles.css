@@ -1,0 +1,50 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    max-height: 753px;
+    
+}
+
+.TiuloServicios{
+    margin-bottom: 0px;padding-top: 6px;padding-bottom: 6px;
+}
+
+.text-especial{
+    color: rgb(65, 65, 187);
+}
+
+.bg-especial
+{
+    background-color: rgb(118, 224, 184);
+}
+
+.footer{
+    background-color: rgb(138, 177, 221);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.redes{
+    background-color: rgb(144, 140, 146);
+   font-size: medium;
+   margin-bottom: 0px;padding-top: 6px;padding-bottom: 6px;
+}
+
+.icons{
+    max-height: 40px;
+    max-width: 40px ;
+
+}
+
+.ubicacion{
+    max-height: 415px;
+}
+
+
+
+
+
+
+
+

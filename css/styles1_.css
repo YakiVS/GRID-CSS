@@ -1,0 +1,107 @@
+html{
+    box-sizing: border-box;
+}
+
+
+*{
+    font-family: 'Merriweather', serif;
+    box-sizing: inherit;
+}
+
+:root{
+    --primario:  #1198aa;
+    --primarioOscuro:#57d4f3cc;
+    --secundario:  #3cd60e7a;
+    --gris: #b4a4a2;
+    --secundarioOscuro:#94f06ffd;
+    --blanco:#f8f8ef;
+    --negro:#080808;
+    --azul:rgba(28, 53, 138, 0.616);
+}
+
+body{
+    background-color: var(--primario);
+    font-size:  large;
+
+}
+
+
+p{
+    font-size: medium;
+    color: var(--blanco);
+    text-align: center;
+
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration:none ;
+}
+
+h1,h2,h3{
+    text-align: center;
+    color: var(--secundario);
+    font-weight:  bold;
+}
+
+/** CLASES**/
+
+
+
+.navegacion{
+    display: flex;
+    justify-content: center;
+    background-color: var(--primarioOscuro);
+}
+
+.navegacion a{
+    margin-right: 5px ;
+    padding-bottom: 10px;
+    padding-top:10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--blanco);
+}
+
+
+
+.navegacion a:hover{
+    
+    color: var(--azul)
+}
+
+.footer{
+    background-color: var(--secundario);
+}
+
+.footer p{
+    padding: 20px;
+}
+
+.producto{
+    background-color: var(--primarioOscuro);
+    margin: 20px;
+    text-align: center ;
+    
+}
+
+.grid_productos{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+
+}
+
+.textoPrincipal{
+    color: var(--gris);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.text1{
+    margin-bottom: 130px;
+}
